@@ -6,18 +6,25 @@ using var channel = GrpcChannel.ForAddress("http://localhost:5005");
 var client = new DataStreamer.DataStreamerClient(channel);
 var call = client.SendStreamData();
 
+int i = 0;
 while (true)
 {
-    await call.RequestStream.WriteAsync(new Request
+    if(i<2)
     {
-        Message = new Message()
+        i++;
+        var text = "Thi    s is text of news number " + i+1;
+        await call.RequestStream.WriteAsync(new Request
         {
-            Id = "",
-            MessageText = "",
-            TimeOfMessage = DateTime.UtcNow.ToTimestamp(),
-            Source = "",
-            UserName = ""
-        }
-    });
+            Message = new Message
+            {
+                Id = Guid.NewGuid().ToString(),
+                Text = text,
+                TimeOfMessage = DateTime.UtcNow.ToTimestamp(),
+                Source = "source",
+                Author = ""
+            }
+        });
+        Console.WriteLine(text);
+    }
 }
-await call.RequestStream.CompleteAsync();
+//await call.RequestStream.CompleteAsync();

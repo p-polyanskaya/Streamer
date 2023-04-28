@@ -298,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/polina/RiderProjects/Streamer/Streamer/Streamer.csproj",
+      "projectUniqueName": "/Users/polina/Documents/GitHub/Streamer/Streamer/Streamer.csproj",
       "projectName": "Streamer",
-      "projectPath": "/Users/polina/RiderProjects/Streamer/Streamer/Streamer.csproj",
+      "projectPath": "/Users/polina/Documents/GitHub/Streamer/Streamer/Streamer.csproj",
       "packagesPath": "/Users/polina/.nuget/packages/",
-      "outputPath": "/Users/polina/RiderProjects/Streamer/Streamer/obj/",
+      "outputPath": "/Users/polina/Documents/GitHub/Streamer/Streamer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/polina/.nuget/NuGet/NuGet.Config"

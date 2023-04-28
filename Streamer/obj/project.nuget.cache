@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tBOdctL1q0a6hl2ST0W1C89VbO75KsMCiJVY/eIggwa8qu86mShscW6I4jVPEecUFV1rgw/QsWofgBzRTtFRnQ==",
+  "dgSpecHash": "cOto4zZ39lghI9FGNdCAW/U3v5s6Cxehosubl3ieLSs+5NSStrMOPvy/njbI35lAzApM7o1XD0mNAiHhRy4xnQ==",
   "success": true,
-  "projectFilePath": "/Users/polina/RiderProjects/Streamer/Streamer/Streamer.csproj",
+  "projectFilePath": "/Users/polina/Documents/GitHub/Streamer/Streamer/Streamer.csproj",
   "expectedPackageFiles": [
     "/Users/polina/.nuget/packages/google.protobuf/3.22.3/google.protobuf.3.22.3.nupkg.sha512",
     "/Users/polina/.nuget/packages/grpc.core.api/2.52.0/grpc.core.api.2.52.0.nupkg.sha512",

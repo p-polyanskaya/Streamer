@@ -17,8 +17,8 @@ service DataStreamer{
 
 message Message {
   string id = 1;
-  string userName = 2;
+  string author = 2;
   google.protobuf.Timestamp timeOfMessage = 3;
-  string messageText = 4;
+  string text = 4;
   string source = 5;
 }

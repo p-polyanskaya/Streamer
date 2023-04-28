@@ -10,13 +10,13 @@ public class Message
 
     public Message(
         Guid id,
-        string userName,
+        string author,
         byte[] messageText, 
         DateTime timeOfMessage, 
         string source)
     {
         Id = id;
-        UserName = userName;
+        UserName = author;
         MessageText = messageText;
         TimeOfMessage = timeOfMessage;
         Source = source;
